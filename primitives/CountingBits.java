@@ -2,8 +2,8 @@ package me.sidx.primitives;
 
 public class CountingBits {
 	
-	/* Program to count number of bits that are set to 1
-	 * 
+	/* 
+	 * Program to count number of bits that are set to 1
 	 */
 	
 	public static short countBits(int x) {
@@ -13,18 +13,12 @@ public class CountingBits {
 			numBits += (x & 1);
 			x >>>= 1;
 		}
-		
-		
 		return numBits;
 	}
 	
-	
 	public static void main(String[] args) {
 	
-		int x = 5;
-		
-		System.out.println("No of Bits in " + x + " is " + countBits(5));
-		
+		int test = 300;		
+		System.out.println("No of Bits in " + test + " is " + countBits(test));	
 	}
-
 }
