@@ -1,4 +1,4 @@
-package me.sidx.primitives;
+package me.sidx.arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
